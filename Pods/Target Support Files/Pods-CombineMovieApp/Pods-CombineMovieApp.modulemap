@@ -1,0 +1,6 @@
+framework module Pods_CombineMovieApp {
+  umbrella header "Pods-CombineMovieApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

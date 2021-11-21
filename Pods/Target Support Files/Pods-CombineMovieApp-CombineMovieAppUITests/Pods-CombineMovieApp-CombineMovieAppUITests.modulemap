@@ -1,0 +1,6 @@
+framework module Pods_CombineMovieApp_CombineMovieAppUITests {
+  umbrella header "Pods-CombineMovieApp-CombineMovieAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
