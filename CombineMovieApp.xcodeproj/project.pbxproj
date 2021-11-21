@@ -23,6 +23,8 @@
 		A23D7E7F274A8E38000741F9 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23D7E7E274A8E38000741F9 /* ViewModel.swift */; };
 		A23D7E81274A8E40000741F9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23D7E80274A8E40000741F9 /* Model.swift */; };
 		A23D7E83274A8E4A000741F9 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23D7E82274A8E4A000741F9 /* Service.swift */; };
+		A23D7E88274A9100000741F9 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23D7E86274A9100000741F9 /* MovieCell.swift */; };
+		A23D7E89274A9100000741F9 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23D7E87274A9100000741F9 /* MovieCell.xib */; };
 		E700C89A6B8F63B000D32A02 /* Pods_CombineMovieApp_CombineMovieAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBE184896921253CB728B6F /* Pods_CombineMovieApp_CombineMovieAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +70,8 @@
 		A23D7E7E274A8E38000741F9 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		A23D7E80274A8E40000741F9 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A23D7E82274A8E4A000741F9 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		A23D7E86274A9100000741F9 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		A23D7E87274A9100000741F9 /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
 		D5E219E6CE966F5D46CD0F4B /* Pods-CombineMovieApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineMovieApp.debug.xcconfig"; path = "Target Support Files/Pods-CombineMovieApp/Pods-CombineMovieApp.debug.xcconfig"; sourceTree = "<group>"; };
 		EBB1D0E041DE32EFEC7438A1 /* Pods-CombineMovieApp-CombineMovieAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineMovieApp-CombineMovieAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-CombineMovieApp-CombineMovieAppUITests/Pods-CombineMovieApp-CombineMovieAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		FBBD243827E79013B0A897ED /* Pods-CombineMovieApp-CombineMovieAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CombineMovieApp-CombineMovieAppUITests.release.xcconfig"; path = "Target Support Files/Pods-CombineMovieApp-CombineMovieAppUITests/Pods-CombineMovieApp-CombineMovieAppUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -208,10 +212,20 @@
 		A23D7E84274A8E51000741F9 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				A23D7E85274A90EC000741F9 /* Cell */,
 				A2256334274A78A700574946 /* Main.storyboard */,
 				A2256339274A78AB00574946 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A23D7E85274A90EC000741F9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				A23D7E86274A9100000741F9 /* MovieCell.swift */,
+				A23D7E87274A9100000741F9 /* MovieCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,6 +339,7 @@
 			files = (
 				A225633B274A78AB00574946 /* LaunchScreen.storyboard in Resources */,
 				A2256338274A78AB00574946 /* Assets.xcassets in Resources */,
+				A23D7E89274A9100000741F9 /* MovieCell.xib in Resources */,
 				A2256336274A78A700574946 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,6 +470,7 @@
 			files = (
 				A23D7E81274A8E40000741F9 /* Model.swift in Sources */,
 				A23D7E83274A8E4A000741F9 /* Service.swift in Sources */,
+				A23D7E88274A9100000741F9 /* MovieCell.swift in Sources */,
 				A2256362274A798A00574946 /* Extensions.swift in Sources */,
 				A2256333274A78A700574946 /* MainView.swift in Sources */,
 				A225632F274A78A700574946 /* AppDelegate.swift in Sources */,
