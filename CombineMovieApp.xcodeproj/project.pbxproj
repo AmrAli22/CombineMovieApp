@@ -16,6 +16,8 @@
 		A2256346274A78AB00574946 /* CombineMovieAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2256345274A78AB00574946 /* CombineMovieAppTests.swift */; };
 		A2256350274A78AC00574946 /* CombineMovieAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A225634F274A78AC00574946 /* CombineMovieAppUITests.swift */; };
 		A2256352274A78AC00574946 /* CombineMovieAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2256351274A78AC00574946 /* CombineMovieAppUITestsLaunchTests.swift */; };
+		A225635F274A791E00574946 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = A225635E274A791E00574946 /* Constans.swift */; };
+		A2256362274A798A00574946 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2256361274A798A00574946 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		A225634B274A78AC00574946 /* CombineMovieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombineMovieAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A225634F274A78AC00574946 /* CombineMovieAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineMovieAppUITests.swift; sourceTree = "<group>"; };
 		A2256351274A78AC00574946 /* CombineMovieAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineMovieAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A225635E274A791E00574946 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		A2256361274A798A00574946 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		A225632D274A78A700574946 /* CombineMovieApp */ = {
 			isa = PBXGroup;
 			children = (
+				A2256360274A792A00574946 /* resources */,
 				A225632E274A78A700574946 /* AppDelegate.swift */,
 				A2256330274A78A700574946 /* SceneDelegate.swift */,
 				A2256332274A78A700574946 /* ViewController.swift */,
@@ -125,6 +130,15 @@
 				A2256351274A78AC00574946 /* CombineMovieAppUITestsLaunchTests.swift */,
 			);
 			path = CombineMovieAppUITests;
+			sourceTree = "<group>";
+		};
+		A2256360274A792A00574946 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				A225635E274A791E00574946 /* Constans.swift */,
+				A2256361274A798A00574946 /* Extensions.swift */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2256362274A798A00574946 /* Extensions.swift in Sources */,
 				A2256333274A78A700574946 /* ViewController.swift in Sources */,
 				A225632F274A78A700574946 /* AppDelegate.swift in Sources */,
+				A225635F274A791E00574946 /* Constans.swift in Sources */,
 				A2256331274A78A700574946 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
